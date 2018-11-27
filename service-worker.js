@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Pk013/Todo2.git/precache-manifest.ef564c2c629b7d3bc66f84067a48fabc.js"
+  "/Todo2/./precache-manifest.2748d33eb89811a65e50898839bc3d62.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Pk013/Todo2.git/index.html", {
+workbox.routing.registerNavigationRoute("/Todo2/./index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
